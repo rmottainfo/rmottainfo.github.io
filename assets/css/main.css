@@ -1288,6 +1288,9 @@ input, select, textarea {
 			}
 
 		#header .logo {
+			display: flex;
+			align-items: center; /* Alinhar verticalmente */
+			justify-content: center; /* Alinhar horizontalmente */
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
@@ -1297,6 +1300,11 @@ input, select, textarea {
 
 			#header .logo .icon:before {
 				font-size: 2rem;
+			}
+
+			#header .logo .fas:before {
+				font-size: 2rem;
+				display: blockquote:before;
 			}
 
 		#header .content {
